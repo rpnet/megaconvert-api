@@ -293,7 +293,7 @@ Use `GET /formats` for the complete list.
 ## Image Conversion
 
 ### Online Tools
-- [MegaConvert Image Converter](https://megaconvert.io/en/convert/image) — JPG, PNG, WebP, AVIF, HEIC, SVG, BMP, TIFF, ICO, PSD, RAW and more
+- [MegaConvert Image Converter](https://megaconvert.io/category/image) — JPG, PNG, WebP, AVIF, HEIC, SVG, BMP, TIFF, ICO, PSD, RAW and more
 - [Squoosh](https://squoosh.app) — Google's image compression/conversion tool (client-side)
 - [TinyPNG](https://tinypng.com) — PNG and JPEG compression
 
@@ -311,7 +311,7 @@ Use `GET /formats` for the complete list.
 ## Video Conversion
 
 ### Online Tools
-- [MegaConvert Video Converter](https://megaconvert.io/en/convert/video) — MP4, WebM, AVI, MKV, MOV, FLV and more
+- [MegaConvert Video Converter](https://megaconvert.io/category/video) — MP4, WebM, AVI, MKV, MOV, FLV and more
 - [HandBrake](https://handbrake.fr) — Open source video transcoder (desktop app)
 
 ### CLI Tools
@@ -326,7 +326,7 @@ Use `GET /formats` for the complete list.
 ## Audio Conversion
 
 ### Online Tools
-- [MegaConvert Audio Converter](https://megaconvert.io/en/convert/audio) — MP3, WAV, FLAC, AAC, OGG, M4A, WMA and more
+- [MegaConvert Audio Converter](https://megaconvert.io/category/audio) — MP3, WAV, FLAC, AAC, OGG, M4A, WMA and more
 
 ### CLI Tools
 - [FFmpeg](https://ffmpeg.org) — Also handles all audio formats
@@ -340,7 +340,7 @@ Use `GET /formats` for the complete list.
 ## Document Conversion
 
 ### Online Tools
-- [MegaConvert Document Converter](https://megaconvert.io/en/convert/document) — PDF, DOCX, DOC, ODT, RTF, TXT, HTML and more
+- [MegaConvert Document Converter](https://megaconvert.io/category/document) — PDF, DOCX, DOC, ODT, RTF, TXT, HTML and more
 - [iLovePDF](https://www.ilovepdf.com) — Comprehensive PDF toolkit
 - [SmallPDF](https://smallpdf.com) — PDF tools suite
 
@@ -359,7 +359,7 @@ Use `GET /formats` for the complete list.
 ## Ebook Conversion
 
 ### Online Tools
-- [MegaConvert Ebook Converter](https://megaconvert.io/en/convert/ebook) — EPUB, MOBI, AZW3, FB2, PDF and more
+- [MegaConvert Ebook Converter](https://megaconvert.io/category/ebook) — EPUB, MOBI, AZW3, FB2, PDF and more
 
 ### CLI Tools
 - [Calibre](https://calibre-ebook.com) — The ultimate ebook management and conversion tool
@@ -371,7 +371,7 @@ Use `GET /formats` for the complete list.
 ## Font Conversion
 
 ### Online Tools
-- [MegaConvert Font Converter](https://megaconvert.io/en/convert/font) — TTF, OTF, WOFF, WOFF2, EOT and more
+- [MegaConvert Font Converter](https://megaconvert.io/category/font) — TTF, OTF, WOFF, WOFF2, EOT and more
 
 ### Libraries
 - [fonttools](https://github.com/fonttools/fonttools) (Python) — Manipulate font files (TTF, OTF, WOFF, WOFF2)
@@ -379,7 +379,7 @@ Use `GET /formats` for the complete list.
 ## Archive & Compression
 
 ### Online Tools
-- [MegaConvert Archive Converter](https://megaconvert.io/en/convert/archive) — ZIP, RAR, 7Z, TAR, GZ and more
+- [MegaConvert Archive Converter](https://megaconvert.io/category/archive) — ZIP, RAR, 7Z, TAR, GZ and more
 
 ### CLI Tools
 - [7-Zip](https://www.7-zip.org) — High compression ratio archiver
@@ -388,7 +388,7 @@ Use `GET /formats` for the complete list.
 ## Subtitle Conversion
 
 ### Online Tools
-- [MegaConvert Subtitle Converter](https://megaconvert.io/en/convert/subtitle) — SRT, VTT, ASS, SSA and more
+- [MegaConvert Subtitle Converter](https://megaconvert.io/category/subtitle) — SRT, VTT, ASS, SSA and more
 
 ### Libraries
 - [pysrt](https://github.com/byroot/pysrt) (Python) — SRT subtitle parser
@@ -397,7 +397,7 @@ Use `GET /formats` for the complete list.
 ## Vector & CAD
 
 ### Online Tools
-- [MegaConvert Vector Converter](https://megaconvert.io/en/convert/vector) — SVG, EPS, DXF, AI and more
+- [MegaConvert Vector Converter](https://megaconvert.io/category/vector) — SVG, EPS, DXF, AI and more
 
 ### CLI Tools
 - [Inkscape CLI](https://inkscape.org) — `inkscape --export-filename` for vector conversion
@@ -406,7 +406,7 @@ Use `GET /formats` for the complete list.
 ## Spreadsheet Conversion
 
 ### Online Tools
-- [MegaConvert Spreadsheet Converter](https://megaconvert.io/en/convert/spreadsheet) — XLS, XLSX, CSV, ODS, TSV and more
+- [MegaConvert Spreadsheet Converter](https://megaconvert.io/category/spreadsheet) — XLS, XLSX, CSV, ODS, TSV and more
 
 ### Libraries
 - [openpyxl](https://github.com/theorchard/openpyxl) (Python) — Read/write Excel files
@@ -416,19 +416,21 @@ Use `GET /formats` for the complete list.
 ## Presentation Conversion
 
 ### Online Tools
-- [MegaConvert Presentation Converter](https://megaconvert.io/en/convert/presentation) — PPT, PPTX, ODP, PDF and more
+- [MegaConvert Presentation Converter](https://megaconvert.io/category/presentation) — PPT, PPTX, ODP, PDF and more
 
 ### Libraries
 - [python-pptx](https://github.com/scanny/python-pptx) (Python) — Create/modify PowerPoint files
 
-## Conversion APIs
+## Conversion APIs — Price Comparison
 
-| API | Pricing | Docs |
-|-----|---------|------|
-| **[MegaConvert API](https://megaconvert.io/docs/api)** | **Included with $79/yr plan, 100 req/day** | **[Docs](https://megaconvert.io/docs/api)** |
-| [CloudConvert API](https://cloudconvert.com/api) | From $8/500 min | [Docs](https://cloudconvert.com/api/v2) |
-| [Zamzar API](https://developers.zamzar.com) | From $8/mo | [Docs](https://developers.zamzar.com/docs) |
-| [ConvertAPI](https://www.convertapi.com) | From $15/mo | [Docs](https://www.convertapi.com/doc) |
+| API | Plan | Requests Included | Cost/Request | Max File Size |
+|-----|------|-------------------|-------------|---------------|
+| **[MegaConvert API](https://megaconvert.io/docs/api)** | **$79/year** | **36,500/year** (100/day) | **$0.002** | **10 GB** |
+| [CloudConvert API](https://cloudconvert.com/api) | $8/500 min | ~500/month | $0.016 | 5 GB |
+| [Zamzar API](https://developers.zamzar.com) | $8/month ($96/yr) | 100/month | $0.080 | 50 MB |
+| [ConvertAPI](https://www.convertapi.com) | $15/month ($180/yr) | 1,500/month | $0.010 | 1 GB |
+
+> **MegaConvert is up to 40x cheaper per request** than alternatives, with the largest file size limit (10 GB) and no monthly billing — one flat annual fee.
 
 ## Articles & Guides
 
