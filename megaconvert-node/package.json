@@ -1,0 +1,47 @@
+{
+  "name": "megaconvert",
+  "version": "1.0.0",
+  "description": "Official Node.js SDK for the MegaConvert API — convert files between 500+ formats",
+  "author": "MegaConvert <support@megaconvert.io>",
+  "license": "MIT",
+  "homepage": "https://megaconvert.io/docs/api",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rpnet/megaconvert-api",
+    "directory": "node"
+  },
+  "bugs": {
+    "url": "https://github.com/rpnet/megaconvert-api/issues"
+  },
+  "type": "module",
+  "main": "./src/index.cjs",
+  "module": "./src/index.js",
+  "exports": {
+    ".": {
+      "import": "./src/index.js",
+      "require": "./src/index.cjs"
+    }
+  },
+  "types": "./src/index.d.ts",
+  "files": [
+    "src/",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "megaconvert",
+    "file-conversion",
+    "convert",
+    "pdf",
+    "image",
+    "video",
+    "audio",
+    "document",
+    "api",
+    "cloudconvert-alternative",
+    "format-converter"
+  ]
+}

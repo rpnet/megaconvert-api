@@ -1,0 +1,52 @@
+{
+  "name": "n8n-nodes-megaconvert",
+  "version": "1.0.0",
+  "description": "n8n community node for MegaConvert — convert files between 500+ formats",
+  "license": "MIT",
+  "author": {
+    "name": "MegaConvert",
+    "email": "support@megaconvert.io",
+    "url": "https://megaconvert.io"
+  },
+  "homepage": "https://megaconvert.io/docs/api",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rpnet/megaconvert-api",
+    "directory": "n8n"
+  },
+  "keywords": [
+    "n8n-community-node-package",
+    "n8n",
+    "megaconvert",
+    "file-conversion",
+    "convert",
+    "pdf",
+    "image",
+    "video",
+    "audio"
+  ],
+  "main": "dist/nodes/MegaConvert/MegaConvert.node.js",
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "nodes": [
+      "dist/nodes/MegaConvert/MegaConvert.node.js"
+    ],
+    "credentials": [
+      "dist/credentials/MegaConvertApi.credentials.js"
+    ]
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist/"
+  ],
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "n8n-workflow": "^1.30.0"
+  },
+  "peerDependencies": {
+    "n8n-workflow": ">=1.0.0"
+  }
+}
